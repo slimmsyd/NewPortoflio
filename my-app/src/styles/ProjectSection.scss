@@ -1,0 +1,152 @@
+.projectSection { 
+
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    padding: 4rem 2rem;
+    flex-direction: column;
+    width: 100%;
+    h2{ 
+        font-weight: 400;
+        font-size: 3rem;
+    }
+    a { 
+        color: #A9A3A3;
+    }
+
+    
+.divideLine { 
+    height: 0.2rem; 
+    margin: 2rem 0rem; 
+    width: 25%;
+    background-color:#A9A3A3 ;
+}
+
+
+span {
+    color: #F4D21A
+}
+
+.project { 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 0.5rem;
+    width: 470px;
+    height: 470px;
+    margin:2rem;
+    cursor: pointer;
+    border: 1px solid #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    transition: transform ease 1.5s;
+    text-align: center;
+    a { 
+        text-decoration: none;
+    }
+
+@media (max-width:1920px) {
+    width: 270px; 
+    height: 370px;     
+}
+span {
+    color: #F4D21A
+}
+
+    p {
+        color: #A9A3A3;
+        text-align: center;
+        margin: 0;
+    }
+    
+.skillInnerDiv { 
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    width: 100%;
+}
+    .project-Card { 
+        width: 100%;
+        height: 75%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        img {
+            object-fit: cover;
+            width: 100%;
+            height: 360px;
+            border-radius: 1rem;
+        }
+        @media (max-width:1920px) {
+            img {
+                height: 260px;
+                z-index: 0;
+            }
+        }
+
+        .project-Hover { 
+            display: flex;
+            left: 0px;
+            right: 0px;
+            top: 0px;
+            bottom: 0px;
+            align-items: center;
+            flex-direction: row;
+            position: absolute;
+            height: 100%;
+           justify-content: center;
+            width: 100%;
+            border-radius: 0.5rem;
+            z-index: 0;
+            opacity: 0;
+
+            .linkTo {
+                cursor: pointer;
+                width: 86px;
+                height: 50px;
+                left: 656px;
+                top: 2074px;
+                background: #F9F9F9;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 5px;
+                border: none;
+                font-weight: 600;
+                transition: all 0.5s ease;
+              
+
+            }
+            .linkTo:hover { 
+                transition: all 0.5s ease;
+                transform: scale(120%);
+
+            }
+
+        }
+        .project-Hover:hover {
+            background-color: rgba(0, 0, 0, 0.5);
+            transition: all 0.3s ease 0s;
+            opacity: 1;
+            z-index: 1;
+        }
+
+
+        h3 {
+            font-size: 3rem;
+        }
+    }
+
+}
+
+.skillsPortfolio { 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center
+}
+
+}

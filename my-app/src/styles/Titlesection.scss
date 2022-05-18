@@ -1,0 +1,98 @@
+.titleSection { 
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4rem 2rem;
+    width: 100%;
+    @media (max-width: 599px) { 
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        min-height: 70vh;
+      
+        h3 { 
+            font-size: 0.9rem;
+        }
+       .description {
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           flex-direction: column;
+       } 
+       .explore { 
+           width: 200px !important;
+           height: 50px !important;
+           font-size: 16px !important;
+       }
+       img {
+           width: 450px;
+       }
+    }
+    span {
+        color: #F4D21A
+    }
+
+    @media (max-width: 1300px) { 
+        // h1{
+        //     font-size: 95% !important;
+        // }
+    }
+    h1 { 
+        font-size: 8rem;
+        z-index: 1;
+    }
+    h2 {
+        font-size: 4rem;
+        
+    }
+    h3 { 
+        width: 270px;
+        color: #A9A3A3;
+
+    }
+    h2,h3 { 
+        font-weight: 200;
+    }
+    h1,h2,h3 { 
+        margin: 0;
+    }
+    p { 
+        color: #A9A3A3;
+    }
+ 
+    .img {
+        z-index: -1;
+        position: absolute;
+        animation: spin 4s ease infinite;
+        opacity: 95%;
+       
+    }
+    .img:hover { 
+        transform: rotate(180deg);
+    }
+    @keyframes spin {
+        100%{transform: rotate(360deg) translateZ(0);}
+        
+    }
+
+    .explore { 
+        margin-top: 100px;
+  background-color: #ffff;
+  border: 1px solid #222222;
+  width: 400px;
+  height: 88px;
+  color: #222222;
+  font-family: var(--MainFont);
+  font-size: 24px;
+  cursor: pointer;
+  transition: all ease-in-out 0.5s;
+  pointer-events: all;  
+    }
+    .explore:hover { 
+        background-color: #222222;
+    border: 1px solid #ffff;
+    color: #ffff;
+    }
+
+}
