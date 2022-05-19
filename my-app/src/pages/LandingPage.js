@@ -1,18 +1,31 @@
 import TitleSection from "../components/TitleSection"
-import Navbar from "../components/Navbar";
 import SkillsSection from "../components/SkillSection";
 import MoreSkill from "../components/MoreSkills";
 import ProjectSection from "../components/ProjectSection";
 import Contact from "../components/Contact.tsx";
 import Socials from "../components/Socials";
+import Navbar from "../components/Navbar";
+import React, {useEffect, useRef} from 'react';
+
 const LandingPage = () => { 
+    const skill = useRef(null);
+    const contact = useRef(null);
+
+
+
     return (
         <>
+          <Navbar
+          />
             <TitleSection />
-            <SkillsSection />
+            <SkillsSection
+   
+            />
             <MoreSkill />
             <ProjectSection />
-            <Socials />
+            <Socials
+ 
+            />
             <Contact />
         </>
 

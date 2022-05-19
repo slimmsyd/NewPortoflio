@@ -1,7 +1,7 @@
 import React, {useEffect, useRef} from 'react';
 import '../styles/Titlesection.scss'
 import Navbar from './Navbar';
-const TitleSection = () => { 
+const TitleSection = ({skill, contact}) => { 
 
     return ( 
         <section className = "titleSection"> 
