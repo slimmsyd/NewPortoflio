@@ -11,7 +11,7 @@ const Navbar = () => {
     }
     const scrollContact = () => { 
         window.scrollTo({
-            top: 4000,
+            top: 4500,
             behavior: 'smooth'
         })
     }
