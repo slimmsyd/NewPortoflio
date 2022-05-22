@@ -15,17 +15,12 @@ const LandingPage = () => {
 
     return (
         <>
-          <Navbar
-          />
+            <Navbar/>
             <TitleSection />
-            <SkillsSection
-   
-            />
+            <SkillsSection/>
             <MoreSkill />
             <ProjectSection />
-            <Socials
- 
-            />
+            <Socials/>
             <Contact />
         </>
 

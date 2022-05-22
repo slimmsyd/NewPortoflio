@@ -3,7 +3,7 @@ import '../styles/SkillSection.scss';
 import { useState} from 'react';
 
 
-const SkillsSection = ({skill}) =>  { 
+const SkillsSection = () =>  { 
     const myRef = useRef();
     const [slide, setSlide] = useState("");
     console.log("setSlide", slide); 
@@ -29,7 +29,7 @@ const SkillsSection = ({skill}) =>  {
                 
                 <div ref = {myRef} className = {`skillsPortfolio ${slide ? "show" : ``}`}>
 
-                    <div ref = {skill} className = "cards">
+                    <div className = "cards">
                         <div className = "card">
                         <h3>ReactJs</h3>
                         </div>
