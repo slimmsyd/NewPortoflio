@@ -60,7 +60,7 @@ function hoverOver() {
                     </div>
                     <div className = "project">
                         <div className = "project-Card">
-                        <img src = "./MetaRentals.png" alt = ""/>
+                        <img src = "./MetaRentals.png" alt = "https://metarentalsfrontend-e53jqnxvx-slimmsyd.vercel.app/"/>
                         <div onMouseEnter={hoverOver} className = "project-Hover">
                           <button className ="linkTo"><a href='https://github.com/MetaRentals/metaRentals-frontend'>Go to</a></button>
                         </div>

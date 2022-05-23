@@ -4,6 +4,8 @@ import Navbar from './Navbar';
 const TitleSection = ({skill, contact}) => { 
 
     return ( 
+
+        
         <section className = "titleSection"> 
               <div className = "img">
                 <img src = "/Group.png" alt ="design"></img>
