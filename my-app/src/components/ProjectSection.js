@@ -69,6 +69,17 @@ function hoverOver() {
                         <p>E-commerce landing page built with Next.js. </p>
 
                     </div>
+                    <div className = "project">
+                        <div className = "project-Card">
+                        <img src = "./ChainLinkRandomGame.PNG" alt = "ChainLink"/>
+                        <div onMouseEnter={hoverOver} className = "project-Hover">
+                          <button className ="linkTo"><a href='https://github.com/slimmsyd/RandomgameWinner'>Go to</a></button>
+                        </div>
+                        </div>
+                        <h4>RandomGameLottery</h4>
+                        <p>Chainlink VRF random lottery game. Intergrates. Built with solidity code and chainlink</p>
+
+                    </div>
 
                 </div>
             </div>
