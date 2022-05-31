@@ -9,12 +9,7 @@
         h2 { 
             font-weight: 300 ;
         }
-        @media (max-width:599px) {
-            img {
-           width: 64px;
-
-            }
-        }
+      
 
 
     .app-Footer { 
@@ -39,3 +34,10 @@
     }
 
 }
+
+
+@media (max-width:599px) {
+    .socialSection { 
+        display: none !important;
+    }
+   }
