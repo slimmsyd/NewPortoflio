@@ -45,7 +45,7 @@ return (
 
     <nav className = "nav">
         <div>
-        <h1 onClick={scrollSkills} > Skills</h1>
+        <h1> <a href = "https://sydneysanders.hashnode.dev/" >Blog</a></h1>
         </div>
         <div>
         <h1 onClick={scrollHome}> Home</h1>
@@ -77,6 +77,10 @@ return (
         <ul className = "navLinks">
             <li><a href = "https://www.youtube.com/channel/UCC8yLhVL7lThf295DtD4rag">Youtube</a></li>
         </ul>
+        <ul className = "navLinks">
+            <li><a href = "ttps://sydneysanders.hashnode.dev/">Blog</a></li>
+        </ul>
+
 
     </div>
 
