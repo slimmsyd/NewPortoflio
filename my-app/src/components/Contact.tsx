@@ -24,11 +24,12 @@ export default function Contact() {
         name: '',
         message: '',
     };
-    //Typescript Stuff    
+    //Typescript FormState
     const [formState, setFormState] = useState<FormState>(initialFormState);
     //submit State
     const [submitting, setSubmitting] = useState(false);
     //Set if form submission was successful
+    //Type ServiceMessage
     const [message, setMessage] = useState<ServiceMessage>();
 
     //submits form
@@ -75,7 +76,7 @@ export default function Contact() {
 
 
     return ( 
-        <section className = "contactSection">
+        <footer className = "contactSection">
             <div className = "whatIDo">
                     <h2> Get In Touch ^_^ </h2>
                     </div>
@@ -98,7 +99,7 @@ export default function Contact() {
                            
                         </div>
 
-            </section>
+            </footer>
 
 
     )
