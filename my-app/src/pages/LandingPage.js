@@ -15,11 +15,9 @@ const LandingPage = () => {
 
     return (
         <>
-            <Navbar/>
             <TitleSection />
             <SkillsSection/>
             <MoreSkill />
-            <ProjectSection />
             <Socials/>
             <Contact />
         </>

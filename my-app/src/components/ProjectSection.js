@@ -1,7 +1,6 @@
-import React, {useEffect, useRef} from 'react';
-
+import React, {useEffect, useRef, useState} from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/ProjectSection.scss'
-import {useState } from 'react';
 
 
 const ProjectSection = () => { 
@@ -51,7 +50,7 @@ function hoverOver() {
                         <div className = "project-Card">
                         <img src = "./MintChildishNFT.png" alt = ""/>
                              <div onMouseEnter={hoverOver} className = "project-Hover">
-                            <button className ="linkTo"><a href='https://nft-gallery-mint.vercel.app/'>Go to</a></button>
+                            <Link to ="/works/musicapp"> GO TO </Link>
                         </div>
                         </div>
                         <h4>Minting Landing Page</h4>

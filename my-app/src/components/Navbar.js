@@ -1,5 +1,6 @@
 import React, {useEffect, useRef, useState} from 'react';
 import '../styles/Navbar.scss'
+import {Link} from 'react-router-dom';
 const Navbar = () => { 
 
     const [navigation, setNavigation] = useState(false);
@@ -47,13 +48,12 @@ return (
         <div>
         <h1> <a href = "https://sydneysanders.hashnode.dev/" >Blog</a></h1>
         </div>
-        <div>
-        <h1 onClick={scrollHome}> Home</h1>
+            
+        <Link to = "/works"> Works</Link>
 
-        </div>
 
         <div>
-        <h1 onClick={scrollContact} > Contact</h1>
+        <Link to ="/" > Home</Link>
 
         </div>
     

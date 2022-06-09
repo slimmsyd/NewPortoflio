@@ -5,6 +5,16 @@
     justify-content: space-around;
     padding: 4rem 0.5rem;
     width: 100%;
+    .link{
+        text-decoration: none;
+        color: #222222;
+    transition: all ease-in-out 0.5s;
+
+    }
+    .linkTransition { 
+    color: #ffff;
+
+    }
     @media(min-width: 1440px) { 
         h1 { 
             font-size: 6.5rem !important
