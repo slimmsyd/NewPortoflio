@@ -7,8 +7,7 @@ import {BrowserRouter as  Router, Link, Routes, Route, useLoaction} from 'react-
 import Work from './pages/works'; 
 function App() {
 
-
-
+  
 
   return (
     <Router>

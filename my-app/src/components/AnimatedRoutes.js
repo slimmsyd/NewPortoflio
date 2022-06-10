@@ -6,8 +6,10 @@ import Work from '../pages/works';
 
 //framer motion libarary 
 import {AnimatePresence} from 'framer-motion';
-import MusicApp from '../pages/musicApp';
-
+import NftLandingPage from '../pages/components/NftLandingPage';
+import MusicApp from '../pages/components/musicApp';
+import MetaRentals from '../pages/components/metaRentals';
+import RandomGame from '../pages/components/randomGame';
 export default function AnimatedRoutes() { 
       //need to access the location for this work 
       //has to be in the router component 
@@ -18,7 +20,10 @@ export default function AnimatedRoutes() {
              <Routes location = {location} key = {location.pathname}>
                 <Route path = "/" element = {<LandingPage />}></Route>
                 <Route path = "/works" element = {<Work />}> </Route>
-                <Route path = "/works/musicapp" element = {MusicApp} ></Route>
+                <Route path = "/works/nftlandingpage" element = {<NftLandingPage/>} ></Route>
+                <Route path = "/works/musicapp" element = {<MusicApp/>} ></Route>
+                <Route path = "/works/randomgame" element = {<RandomGame/>} ></Route>
+                <Route path = "/works/metarentals" element = {<MetaRentals/>} ></Route>
             </Routes>
 
     </AnimatePresence>

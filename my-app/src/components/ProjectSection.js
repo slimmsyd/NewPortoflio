@@ -1,7 +1,9 @@
 import React, {useEffect, useRef, useState} from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/ProjectSection.scss'
 
+
+import '../styles/ProjectSection.scss'
+import NftLandingPage from '../pages/components/NftLandingPage';
 
 const ProjectSection = () => { 
 const [show, setShow] = useState(false);
@@ -29,7 +31,6 @@ function hoverOver() {
 
     return  ( 
         <div className = "projectSection">
-            <span className = "divideLine"></span>
                 <h2>Quality <span>Projects</span></h2>
                 <a href = "https://github.com/slimmsyd">Click Here To Github</a>
                 <div className = "skillInnerDiv">
@@ -40,7 +41,7 @@ function hoverOver() {
                         <div className = "project-Card">
                             <img src = "./MusicPlayerApp.png" alt = ""/>
                             <div onMouseEnter={hoverOver} className = "project-Hover">
-                            <button className ="linkTo"><a href='https://github.com/slimmsyd/Music-Player-App'>Go to</a></button>
+                            <Link className ="linkTo" to ="/works/musicapp">Go To</Link>
                         </div>
                         </div>
                         <h4>Music Player App</h4>
@@ -50,7 +51,7 @@ function hoverOver() {
                         <div className = "project-Card">
                         <img src = "./MintChildishNFT.png" alt = ""/>
                              <div onMouseEnter={hoverOver} className = "project-Hover">
-                            <Link to ="/works/musicapp"> GO TO </Link>
+                            <Link className = "linkTo" to ="/works/musicapp" element = {NftLandingPage}> Go To </Link>
                         </div>
                         </div>
                         <h4>Minting Landing Page</h4>
@@ -61,7 +62,7 @@ function hoverOver() {
                         <div className = "project-Card">
                         <img src = "./MetaRentals.png" alt = "https://metarentalsfrontend-e53jqnxvx-slimmsyd.vercel.app/"/>
                         <div onMouseEnter={hoverOver} className = "project-Hover">
-                          <button className ="linkTo"><a href='https://github.com/MetaRentals/metaRentals-frontend'>Go to</a></button>
+                          <Link className ="linkTo" to = "/works/metarentals" >Go to</Link>
                         </div>
                         </div>
                         <h4>MetaRentals</h4>
@@ -72,7 +73,7 @@ function hoverOver() {
                         <div className = "project-Card">
                         <img src = "./ChainLinkRandomGame.PNG" alt = "ChainLink"/>
                         <div onMouseEnter={hoverOver} className = "project-Hover">
-                          <button className ="linkTo"><a href='https://github.com/slimmsyd/RandomgameWinner'>Go to</a></button>
+                          <Link className ="linkTo" to ="/works/randomgame">Go To</Link>
                         </div>
                         </div>
                         <h4>RandomGameLottery</h4>

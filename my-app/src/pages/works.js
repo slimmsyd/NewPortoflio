@@ -8,7 +8,7 @@ export default function Work() {
         inital = {{opacity: 0}}
         animate = {{opacity: 1}}
         exit = {{opacity: 1}}
-        
+         
         >
             <ProjectSection />
         </motion.div>
