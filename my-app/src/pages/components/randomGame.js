@@ -24,7 +24,7 @@ const RandomGame = () => {
                             <span className = "description">Platforms </span> <p className = "href"> Windows/macOS/Linux/iOS/Android</p>
                         </li>
                         <li>
-                            <span className ="description">Stack</span> <p className = "href">Solidity, ReactJs, ScrollMagic, Javascript, CSS</p>
+                            <span className ="description">Stack</span> <p className = "href">Solidity, GraphQl, Hardhat, Ether.js, ReactJs</p>
                         </li>
                     </ul>
                 

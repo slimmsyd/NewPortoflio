@@ -24,7 +24,7 @@ const MusicApp = () => {
                             <span className = "description">Platforms </span> <p className = "href"> Windows/macOS/Linux/iOS/Android</p>
                         </li>
                         <li>
-                            <span className ="description">Stack</span> <p className = "href">Solidity, ReactJs, ScrollMagic, Javascript, CSS</p>
+                            <span className ="description">Stack</span> <p className = "href">Javascript, ReactJs, CSS, HTML</p>
                         </li>
                     </ul>
                 

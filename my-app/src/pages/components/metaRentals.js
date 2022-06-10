@@ -27,7 +27,7 @@ const MetaRentals = () => {
                             <span className = "description">Platforms </span> <p className = "href"> Windows/macOS/Linux/iOS/Android</p>
                         </li>
                         <li>
-                            <span className ="description">Stack</span> <p className = "href">Solidity, ReactJs, ScrollMagic, Javascript, CSS</p>
+                            <span className ="description">Stack</span> <p className = "href">Solidity, ReactJs, Hardhat, Ether.js, Rinkeby Testnet</p>
                         </li>
                     </ul>
                 
