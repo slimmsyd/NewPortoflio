@@ -1,12 +1,19 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 import Work from '../works';
 import "../../styles/worksApp.scss"
 import '../../styles/ProjectSection.scss'
 const MetaRentals = () => { 
+
+
+    
     return ( 
-        <div className = "titleSection"> 
+        <motion.div
+        initial ={{y: 250, opacity: 0}}
+        animate = {{y: 0, opacity: 1}}
+         className = "titleSection"> 
         <span className = 'empty'></span>
             <div className = "container">
                 <Link className ="linkToWork" to ="/works" element = {<Work />}>Works > <span id = "span">Minting NFT Landing Page</span> </Link>
@@ -30,12 +37,12 @@ const MetaRentals = () => {
                         <div className = "project-Card">
                         <img src = "../MetaRentals.png" alt = ""/>
                              <div className = "project-Hover">
-                            <a href = "#"> GO TO </a>
+                            <a className = "linkTo" href = "#"> GO TO </a>
                         </div>
                         </div>
                     </div>
             </div>
-        </div>
+        </motion.div>
     )
 
 }

@@ -6,6 +6,7 @@
     padding: 4rem 0.5rem;
     width: 100%;
     flex-direction: column;
+    transition: all 2s;
     #span {
         font-size: 20px;
     }
@@ -46,7 +47,7 @@
             margin: 0.5rem 0rem;
             .href { 
                 padding-left: 1rem;
-                font-size: 12px;
+                font-size: 16px;
                 display: inline-block;
             }
             ul { 
@@ -123,6 +124,9 @@
             opacity: 0;
 
             .linkTo {
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 cursor: pointer;
                 width: 86px;
                 height: 50px;
@@ -135,6 +139,8 @@
                 font-weight: 600;
                 transition: all 0.5s ease;
               
+                color: #A9A3A3;
+
 
             }
             .linkTo:hover { 

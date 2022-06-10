@@ -51,7 +51,7 @@ function hoverOver() {
                         <div className = "project-Card">
                         <img src = "./MintChildishNFT.png" alt = ""/>
                              <div onMouseEnter={hoverOver} className = "project-Hover">
-                            <Link className = "linkTo" to ="/works/musicapp" element = {NftLandingPage}> Go To </Link>
+                            <Link className = "linkTo" to ="/works/nftlandingpage" element = {NftLandingPage}> Go To </Link>
                         </div>
                         </div>
                         <h4>Minting Landing Page</h4>

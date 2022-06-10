@@ -49,11 +49,11 @@ return (
         <h1> <a href = "https://sydneysanders.hashnode.dev/" >Blog</a></h1>
         </div>
             
-        <Link to = "/works"> Works</Link>
+        <Link to ="/" > Home</Link>
 
 
         <div>
-        <Link to ="/" > Home</Link>
+        <Link to = "/works"> Works</Link>
 
         </div>
     
