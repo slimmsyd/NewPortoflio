@@ -1,10 +1,11 @@
 import React, {useEffect, useRef, useState} from 'react';
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
 
 import '../styles/ProjectSection.scss'
 import NftLandingPage from '../pages/components/NftLandingPage';
-
+import CultureEDU from '../pages/components/CultureEDU';
 const ProjectSection = () => { 
 const [show, setShow] = useState(false);
 const myRef = useRef();
@@ -30,7 +31,10 @@ function hoverOver() {
 }
 
     return  ( 
-        <div className = "projectSection">
+        <motion.div
+        initial ={{y: 250, opacity: 0}}
+        animate = {{y: 0, opacity: 1}}
+        className = "projectSection"> 
                 <h2>Quality <span>Projects</span></h2>
                 <a href = "https://github.com/slimmsyd">Click Here To Github</a>
                 <div className = "skillInnerDiv">
@@ -81,10 +85,33 @@ function hoverOver() {
 
                     </div>
 
+                    <div className = "project">
+                        <div className = "project-Card">
+                        <img src = "./CultureEDU.png" alt = "CultureEDU"/>
+                        <div onMouseEnter={hoverOver} className = "project-Hover">
+                          <Link className ="linkTo" to ="/works/CultureEDU" element ={<CultureEDU />}>Go To</Link>
+                        </div>
+                        </div>
+                        <h4>Culture University</h4>
+                        <p>Educational website designed for the purposes of educational users on the blockchain.</p>
+
+                    </div>
+                    <div className = "project">
+                        <div className = "project-Card">
+                        <img src = "./BalataBabies.PNG" alt = "ChainLink"/>
+                        <div onMouseEnter={hoverOver} className = "project-Hover">
+                          <Link className ="linkTo" to ="/works/BalataBabies">Go To</Link>
+                        </div>
+                        </div>
+                        <h4>BalataBabies NFT Landing Page</h4>
+                        <p>Landing page desgned </p>
+
+                    </div>
+
                 </div>
             </div>
 
-        </div>
+        </motion.div>
 
     )
 

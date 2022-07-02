@@ -10,6 +10,8 @@ import NftLandingPage from '../pages/components/NftLandingPage';
 import MusicApp from '../pages/components/musicApp';
 import MetaRentals from '../pages/components/metaRentals';
 import RandomGame from '../pages/components/randomGame';
+import CultureEDU from '../pages/components/CultureEDU';
+import BalataBabies from '../pages/components/BalataBabies';
 export default function AnimatedRoutes() { 
       //need to access the location for this work 
       //has to be in the router component 
@@ -24,6 +26,8 @@ export default function AnimatedRoutes() {
                 <Route path = "/works/musicapp" element = {<MusicApp/>} ></Route>
                 <Route path = "/works/randomgame" element = {<RandomGame/>} ></Route>
                 <Route path = "/works/metarentals" element = {<MetaRentals/>} ></Route>
+                <Route path = "/works/CultureEDU" element = {<CultureEDU />}></Route>
+                <Route path = "/works/BalataBabies" element = {<BalataBabies />}></Route>
             </Routes>
 
     </AnimatePresence>
