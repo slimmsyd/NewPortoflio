@@ -13,7 +13,7 @@ const MusicApp = () => {
         className = "titleSection"> 
         <span className = 'empty'></span>
             <div className = "container">
-                <Link className ="linkToWork" to ="/works" element = {<Work />}>Works > <span id = "span">Minting NFT Landing Page</span> </Link>
+                <Link className ="linkToWork" to ="/works" element = {<Work />}>Works > <span id = "span">Music Player App</span> </Link>
                 <p>Users are able to shift from a selction of lofi beats for studious purposes. Built in beautiful UI design.</p>
                 <div className = "innerContainer">
                     <ul>
