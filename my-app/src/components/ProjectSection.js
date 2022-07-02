@@ -64,7 +64,7 @@ function hoverOver() {
                     </div>
                     <div className = "project">
                         <div className = "project-Card">
-                        <img src = "./MetaRentals.png" alt = "https://metarentalsfrontend-e53jqnxvx-slimmsyd.vercel.app/"/>
+                        <img src = "./MetaRentals.PNG" alt = "https://metarentalsfrontend-e53jqnxvx-slimmsyd.vercel.app/"/>
                         <div onMouseEnter={hoverOver} className = "project-Hover">
                           <Link className ="linkTo" to = "/works/metarentals" >Go to</Link>
                         </div>
@@ -100,7 +100,7 @@ function hoverOver() {
                         <div className = "project-Card">
                         <img src = "./BalataBabies.PNG" alt = "ChainLink"/>
                         <div onMouseEnter={hoverOver} className = "project-Hover">
-                          <Link className ="linkTo" to ="/works/BalataBabies">Go To</Link>
+                          <Link className ="linkTo" to ="/works/BalataBabies.png">Go To</Link>
                         </div>
                         </div>
                         <h4>BalataBabies NFT Landing Page</h4>
