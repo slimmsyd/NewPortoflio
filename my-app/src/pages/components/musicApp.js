@@ -14,11 +14,11 @@ const MusicApp = () => {
         <span className = 'empty'></span>
             <div className = "container">
                 <Link className ="linkToWork" to ="/works" element = {<Work />}>Works > <span id = "span">Minting NFT Landing Page</span> </Link>
-                <p>A minting NFT landing page. Allows users to mint 1/1 NFTS.</p>
+                <p>Users are able to shift from a selction of lofi beats for studious purposes. Built in beautiful UI design.</p>
                 <div className = "innerContainer">
                     <ul>
                         <li><span className ="description">Github  </span>
-                            <a className = "href" href = "https://github.com/slimmsyd/NFT-Gallery-Mint">https://github.com/slimmsyd/NFT-Gallery-Mint</a>
+                            <a className = "href" href = "https://github.com/slimmsyd/Music-Player-App">https://github.com/slimmsyd/Music-Player-App</a>
                         </li>
                         <li>
                             <span className = "description">Platforms </span> <p className = "href"> Windows/macOS/Linux/iOS/Android</p>
@@ -34,7 +34,7 @@ const MusicApp = () => {
                         <div className = "project-Card">
                         <img src = "../MusicPlayerApp.png" alt = ""/>
                              <div className = "project-Hover">
-                            <a className='linkTo' href = "#"> GO TO </a>
+                            <a className='linkTo' href = "https://music-player-app-pi.vercel.app/"> GO TO </a>
                         </div>
                         </div>
                     </div>

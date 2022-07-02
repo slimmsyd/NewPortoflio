@@ -16,12 +16,12 @@ const MetaRentals = () => {
          className = "titleSection"> 
         <span className = 'empty'></span>
             <div className = "container">
-                <Link className ="linkToWork" to ="/works" element = {<Work />}>Works > <span id = "span">Minting NFT Landing Page</span> </Link>
-                <p>A minting NFT landing page. Allows users to mint 1/1 NFTS.</p>
+                <Link className ="linkToWork" to ="/works" element = {<Work />}>Works > <span id = "span">E-Commere landing page built with Nextjs</span> </Link>
+                <p>Goal was to be a decentralized rental marketplace. Built for chainlink hackathon.</p>
                 <div className = "innerContainer">
                     <ul>
                         <li><span className ="description">Github  </span>
-                            <a className = "href" href = "https://github.com/slimmsyd/NFT-Gallery-Mint">https://github.com/slimmsyd/NFT-Gallery-Mint</a>
+                            <a className = "href" href = "https://github.com/slimmsyd/metarentalsfrontend">https://github.com/slimmsyd/metarentalsfrontend</a>
                         </li>
                         <li>
                             <span className = "description">Platforms </span> <p className = "href"> Windows/macOS/Linux/iOS/Android</p>
@@ -37,7 +37,7 @@ const MetaRentals = () => {
                         <div className = "project-Card">
                         <img src = "../MetaRentals.png" alt = ""/>
                              <div className = "project-Hover">
-                            <a className = "linkTo" href = "#"> GO TO </a>
+                            <a className = "linkTo" href = "https://metarentalsfrontend.vercel.app/"> GO TO </a>
                         </div>
                         </div>
                     </div>

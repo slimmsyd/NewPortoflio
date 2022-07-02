@@ -13,7 +13,7 @@ const RandomGame = () => {
         className = "titleSection"> 
         <span className = 'empty'></span>
             <div className = "container">
-                <Link className ="linkToWork" to ="/works" element = {<Work />}>Works > <span id = "span">Minting NFT Landing Page</span> </Link>
+                <Link className ="linkToWork" to ="/works" element = {<Work />}>Works > <span id = "span">Random lottery game built with chainlinkVRF. Designed on Nextjs</span> </Link>
                 <p>A minting NFT landing page. Allows users to mint 1/1 NFTS.</p>
                 <div className = "innerContainer">
                     <ul>
@@ -24,7 +24,7 @@ const RandomGame = () => {
                             <span className = "description">Platforms </span> <p className = "href"> Windows/macOS/Linux/iOS/Android</p>
                         </li>
                         <li>
-                            <span className ="description">Stack</span> <p className = "href">Solidity, GraphQl, Hardhat, Ether.js, ReactJs</p>
+                            <span className ="description">Stack</span> <p className = "href">Solidity, GraphQl, Hardhat, Ether.js, Nextjs</p>
                         </li>
                     </ul>
                 

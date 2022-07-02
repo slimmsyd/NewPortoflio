@@ -35,7 +35,7 @@ const NftLandingPage = () => {
                         <div className = "project-Card">
                         <img src = "../MintChildishNFT.png" alt = ""/>
                              <div className = "project-Hover">
-                            <a className = "linkTo" href = "#"> GO TO </a>
+                            <a className = "linkTo" href = "https://music-player-app-pi.vercel.app/"> GO TO </a>
                         </div>
                         </div>
                     </div>
