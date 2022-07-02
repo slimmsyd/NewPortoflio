@@ -34,7 +34,7 @@ const BalataBabies = () => {
                         <div className = "project-Card">
                         <img src = "../BalataBabies.png" alt = ""/>
                              <div className = "project-Hover">
-                            <a className='linkTo' href = "https://music-player-app-pi.vercel.app/"> GO TO </a>
+                            <a className='linkTo' href = "#"> GO TO </a>
                         </div>
                         </div>
                     </div>
